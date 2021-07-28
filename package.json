@@ -1,0 +1,26 @@
+{
+  "name": "semanaagilizeiestudos",
+  "version": "1.0.0",
+  "description": "Testes realizados do curso semana agilizei",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open:mobile": "npx cypress open --config viewportWidth=411, viewportHeight=823",
+    "cypress:run:mobile": "npx cypress run --config viewportWidth=411, viewportHeight=823",
+    "cypress:run": "npx cypress run ",
+    "cypress:open": "npx cypress open "
+  },
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucileneMartins/semanaAgilizeiEstudos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucileneMartins/semanaAgilizeiEstudos/issues"
+  },
+  "homepage": "https://github.com/LucileneMartins/semanaAgilizeiEstudos#readme",
+  "devDependencies": {
+    "cypress": "^8.0.0"
+  }
+}
