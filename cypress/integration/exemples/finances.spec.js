@@ -1,24 +1,26 @@
+import {format} from '../../support/utils'
+
 describe('Dev Finnaces', () => {
     before(() => {
         cy.visit('/');
     });
 
-    it('Create entrance', () => {        
+    it.only('Create entrance', () => {        
         var x = Math.floor((Math.random() * 10) + 1);
         cy.get('a[class="button new"]').click();
         cy.get('#description').type('Entrada ');
-        cy.get('#amount').type(5.00);
+        cy.get('#amount').type(150);
         cy.get('#date').type('1990-08-13')
         cy.contains('Salvar').click();
         cy.get('.description').should('have.text','Entrada ')
         
     });
-    it('Create exit', () => {
+    it.only('Create exit', () => {
 
         var x = Math.floor((Math.random() * 10) + 1);
         cy.get('a[class="button new"]').click();
         cy.get('#description').type('Saida ');
-        cy.get('#amount').type(-3);
+        cy.get('#amount').type(-20);
         cy.get('#date').type('1990-08-13')
         cy.contains('Salvar').click();
         cy.get('.description').last().should('have.text','Saida ')
@@ -39,5 +41,24 @@ describe('Dev Finnaces', () => {
         .click();
 
         cy.get('.description').should('have.length', 0)
+    });
+
+    it.only('Validate Value ', () => {
+    let income = 0;
+    let expense = 0;
+    
+       cy.get('#data-table tbody tr') 
+       .each(($el,index,$list) => {
+        
+        cy.get($el).find('td.income, td.expense').invoke('text').then(text => {
+            if(text.includes('-')){
+                expense = expense + format(text);
+            }
+            else{
+                income = income + format(text);
+            }
+        })
+
+       })
     });
 });

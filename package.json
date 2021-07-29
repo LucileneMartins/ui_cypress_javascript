@@ -9,7 +9,7 @@
     "cypress:run": "npx cypress run ",
     "cypress:open": "npx cypress open "
   },
-  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LucileneMartins/semanaAgilizeiEstudos.git"
