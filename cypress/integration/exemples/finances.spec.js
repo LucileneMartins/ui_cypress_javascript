@@ -1,6 +1,6 @@
 import {format} from '../../support/utils'
 
-describe('Dev Finnaces', () => {
+describe('Dev Finances', () => {
     before(() => {
         cy.visit('/');
     });
@@ -59,6 +59,12 @@ describe('Dev Finnaces', () => {
             }
         })
 
+       })
+
+       cy.get('#totalDisplay').invoke('text').then(text => {
+           let expectedTotal = income + expense;
+
+           expect(format(text)).equal(expectedTotal)
        })
     });
 });

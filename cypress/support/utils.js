@@ -18,12 +18,12 @@ export const format = (value) => {
   
     win.localStorage.setItem('dev.finances:transactions', JSON.stringify([
         {
-          description: "Mesada",
+          description: "Entrada",
           amount: randomNumber() * 100,
           date: "11/03/2021"
         },
         {
-          description: 'Suco Kapo',
+          description: 'Saida',
           amount: - (randomNumber() * 100),
           date: "12/03/2021"
         }
