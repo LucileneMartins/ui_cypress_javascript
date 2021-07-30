@@ -27,4 +27,29 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
+    
+    - name: Prepare Allure history
+              run:|
+                  rm -r allure-results/*
+                  cp -r ./allure-report/history ./allure-results/history
+                  rm -r allure-report/*
+    
+    
+    - name: Run Test
     - run: npm run cypress:run
+    
+    - name: Generate Allure report
+      uses: QuintilianoNery/action-allure-report-V2@0.2.0
+
+    - name: Commit report results            
+      run: |
+                  git config --local user.email "action@github.com"
+                  git config --local user.name "GitHub Action"
+                  git add allure-report -f
+                  git add allure-results -f
+                  git commit -m "[chore] autogenerate Allure report" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+                  github_token: '${{ secrets.GITHUB_TOKEN }}'
+                  force: true
