@@ -48,3 +48,8 @@ jobs:
              git add allure-results -f
              git commit -m "[chore] autogenerate Allure report" -a
 
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: '${{ secrets.GITHUB_TOKEN }}'
+        force: true
