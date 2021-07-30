@@ -35,5 +35,9 @@ jobs:
              cp -r ./allure-report/history ./allure-results/history
              rm -r allure-report/*
              
-    - name: Run cypress test
+    - name: Run Cypress Test
       run: npm run cypress:run
+      
+    - name: Generate Allure Report    
+      uses: QuintilianoNery/action-allure-report-V2@0.2.0
+
