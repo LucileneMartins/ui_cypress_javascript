@@ -36,13 +36,13 @@ jobs:
     
     
     - name: Run Test
-      run: npm run cypress:run
+    - run: npm run cypress:run
     
     - name: Generate Allure report
       uses: QuintilianoNery/action-allure-report-V2@0.2.0
 
     - name: Commit report results            
-      run: |
+    - run: |
                   git config --local user.email "action@github.com"
                   git config --local user.name "GitHub Action"
                   git add allure-report -f
