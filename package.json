@@ -7,13 +7,10 @@
     "allure:report": "allure generate allure-results --clean -o allure-report",
     "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
     "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true",
-
-
     "cypress:open:mobile": "npx cypress open --config viewportWidth=411, viewportHeight=823 ",
     "cypress:run:mobile": "npx cypress run allure:clear --config viewportWidth=411, viewportHeight=823 allure:report",
     "cypress:run": "npx cypress run allure:clear --config video=false --env allure=true --browser chrome allure:report",
     "cypress:open": "npx cypress open allure:report "
-
   },
   "repository": {
     "type": "git",
