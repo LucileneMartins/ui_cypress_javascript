@@ -39,4 +39,12 @@ jobs:
       
     - name: Generate Allure Report    
       uses: QuintilianoNery/action-allure-report-V2@0.2.0
+      
+    - name: Commit report results
+      run: |
+             git config --local user.email "action@github.com"
+             git config --local user.name "GitHub Action"
+             git add allure-report -f
+             git add allure-results -f
+             git commit -m "[chore] autogenerate Allure report" -a
 
