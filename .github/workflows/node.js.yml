@@ -28,6 +28,12 @@ jobs:
         cache: 'npm'
     - name: Install Dependencies
       run: npm install
-
-    - name: run cypress test
+      
+    - name: Allure History
+      run: |
+             rm -r allure-results/*
+             cp -r ./allure-report/history ./allure-results/history
+             rm -r allure-report/*
+             
+    - name: Run cypress test
       run: npm run cypress:run
