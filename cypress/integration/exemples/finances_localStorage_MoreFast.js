@@ -1,4 +1,4 @@
-import {format,prepareLocalStorage} from '../../support/utils'
+import {format,prepareLocalStorage} from '../../support/utils/utils'
 
 describe.only('Dev Finances', () => {
     before(() => {

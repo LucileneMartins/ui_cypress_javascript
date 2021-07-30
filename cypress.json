@@ -1,3 +1,11 @@
 {
-    "baseUrl":"https://devfinance-agilizei.netlify.app"
+    "baseUrl":"https://devfinance-agilizei.netlify.app",
+     "pluginsFile": "cypress/plugins/index.js",
+     "supportFile": "cypress/support/index.js",
+     "chromeWebSecurity": false,
+     "defaultCommandTimeout": 60000,
+     "pageLoadTimeout": 60000,
+     "cypress-cucumber-preprocessor": {
+          "nonGlobalStepDefinitions": true          
+        }
 }

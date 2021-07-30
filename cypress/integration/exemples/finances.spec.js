@@ -1,4 +1,4 @@
-import {format} from '../../support/utils'
+import {format} from '../../support/utils/utils'
 
 describe('Dev Finances', () => {
     before(() => {

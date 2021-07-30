@@ -8,6 +8,7 @@ Libs Utilizadas:
 
 - Cypress
 - Linguagem Javascript
+- allure report
 
 
 ## 🎯 Pré-Requisitos
@@ -30,4 +31,8 @@ verificar com o comando npm -v  </br>
 ## 💡 Uso
 
 <b>Rodar os testes com interface gráfica do Cypress</b></br>
-$ npx cypress open</br>
+$ npm run cypress:open</br>
+
+<b>Rodar os testes em modo headless</b></br>
+$ npm run cypress:run</br>
+

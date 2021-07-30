@@ -23,3 +23,43 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('createEntrance', () => { 
+    var x = Math.floor((Math.random() * 10) + 1);
+        cy.get('a[class="button new"]').click();
+        cy.get('#description').type('Entrance');
+        cy.get('#amount').type(150);
+        cy.get('#date').type('1990-08-13')
+        cy.contains('Salvar').click();
+        
+ })
+
+ Cypress.Commands.add('exitChash', () => { 
+    var x = Math.floor((Math.random() * 10) + 1);
+        cy.get('a[class="button new"]').click();
+        cy.get('#description').type('Cash Out');
+        cy.get('#amount').type(-30);
+        cy.get('#date').type('1990-08-13')
+        cy.contains('Salvar').click();
+        
+ })
+
+ Cypress.Commands.add('removeEntrance', () => { 
+    cy.get('td.description')
+    .contains('Cash Out')
+    .parent()
+    .find('img')
+    .click();
+
+    cy.get('td.description')
+    .contains('Entrance')
+    .parent()
+    .find('img')
+    .click();
+        
+ })
+
+        
+ 
+
+
