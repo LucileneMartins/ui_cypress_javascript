@@ -31,9 +31,8 @@ jobs:
       
     - name: Allure History
       run: |
-             mkdir allure-results/*
-             cp -r ./allure-report/history ./allure-results/history
-             mkdir allure-report/*
+             mkdir allure-results
+             mkdir allure-report                         
              
     - name: Run Cypress Test
       run: npm run cypress:run
