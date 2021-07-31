@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - name: Install Dependencies
       run: npm install
-      
+            
     - name: Allure History
       run: |
              mkdir allure-results
@@ -39,6 +39,9 @@ jobs:
       
     - name: Generate Allure Report    
       uses: QuintilianoNery/action-allure-report-V2@0.2.0
+      
+    - name: Link Allure Report
+      run: npm run allure:report 
       
     - name: Commit report results
       run: |
