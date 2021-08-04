@@ -1,0 +1,51 @@
+[ {
+  "uid" : "d3059d404d8fff6a",
+  "name" : "Remove Entrances ",
+  "time" : {
+    "start" : 1628118636749,
+    "stop" : 1628118636956,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "116bb8531572b8b3",
+  "name" : "Create entrance",
+  "time" : {
+    "start" : 1628118644685,
+    "stop" : 1628118645547,
+    "duration" : 862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7eccb17abb501c41",
+  "name" : "Remove entrace and exit",
+  "time" : {
+    "start" : 1628118642651,
+    "stop" : 1628118642861,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27aa8a187e22fa62",
+  "name" : "Validate Value ",
+  "time" : {
+    "start" : 1628118646372,
+    "stop" : 1628118646416,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba5c0a028fce3dc",
+  "name" : "Create exit",
+  "time" : {
+    "start" : 1628118645554,
+    "stop" : 1628118646365,
+    "duration" : 811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

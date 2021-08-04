@@ -1,0 +1,260 @@
+{
+  "uid" : "7eccb17abb501c41",
+  "name" : "Remove entrace and exit",
+  "fullName" : "Remove entrace and exit",
+  "historyId" : "b9bd6eb54a6782002ca273e897b82699",
+  "time" : {
+    "start" : 1628118642651,
+    "stop" : 1628118642861,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/\")",
+      "time" : {
+        "start" : 1628118640637,
+        "stop" : 1628118640934,
+        "duration" : 297
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"td.description\")",
+      "time" : {
+        "start" : 1628118642664,
+        "stop" : 1628118642670,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Cash Out\")",
+      "time" : {
+        "start" : 1628118642670,
+        "stop" : 1628118642674,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "parent",
+      "time" : {
+        "start" : 1628118642674,
+        "stop" : 1628118642677,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"img\")",
+      "time" : {
+        "start" : 1628118642677,
+        "stop" : 1628118642680,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1628118642680,
+        "stop" : 1628118642763,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"td.description\")",
+      "time" : {
+        "start" : 1628118642763,
+        "stop" : 1628118642766,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Entrance\")",
+      "time" : {
+        "start" : 1628118642766,
+        "stop" : 1628118642770,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "parent",
+      "time" : {
+        "start" : 1628118642770,
+        "stop" : 1628118642772,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"img\")",
+      "time" : {
+        "start" : 1628118642772,
+        "stop" : 1628118642775,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1628118642775,
+        "stop" : 1628118642857,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\".description\")",
+      "time" : {
+        "start" : 1628118642857,
+        "stop" : 1628118642861,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **undefined** to have a length of **0** assert",
+      "time" : {
+        "start" : 1628118642861,
+        "stop" : 1628118642861,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Dev Finances"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7eccb17abb501c41.json",
+  "parameterValues" : [ ]
+}

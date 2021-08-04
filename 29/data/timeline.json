@@ -1,0 +1,135 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Remove Entrances ",
+    "uid" : "d3059d404d8fff6a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118636749,
+      "stop" : 1628118636956,
+      "duration" : 207
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Remove entrace and exit",
+    "uid" : "7eccb17abb501c41",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118642651,
+      "stop" : 1628118642861,
+      "duration" : 210
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate Value ",
+    "uid" : "477a315643acf45c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118638912,
+      "stop" : 1628118639000,
+      "duration" : 88
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create entrance",
+    "uid" : "87222c8a3e870634",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118640936,
+      "stop" : 1628118641794,
+      "duration" : 858
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create entrance",
+    "uid" : "42874e2e84d3e8e7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118635050,
+      "stop" : 1628118635909,
+      "duration" : 859
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create exit",
+    "uid" : "3a99f9cd09075555",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118641804,
+      "stop" : 1628118642640,
+      "duration" : 836
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create entrance",
+    "uid" : "116bb8531572b8b3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118644685,
+      "stop" : 1628118645547,
+      "duration" : 862
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create exit",
+    "uid" : "ba5c0a028fce3dc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118645554,
+      "stop" : 1628118646365,
+      "duration" : 811
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create exit",
+    "uid" : "f236df8feb3833aa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118635916,
+      "stop" : 1628118636741,
+      "duration" : 825
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate Value ",
+    "uid" : "27aa8a187e22fa62",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628118646372,
+      "stop" : 1628118646416,
+      "duration" : 44
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}

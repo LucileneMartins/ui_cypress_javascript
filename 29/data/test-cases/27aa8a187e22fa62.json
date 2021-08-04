@@ -1,0 +1,238 @@
+{
+  "uid" : "27aa8a187e22fa62",
+  "name" : "Validate Value ",
+  "fullName" : "Validate Value ",
+  "historyId" : "57dd259d9384ab3ada7b4314594d3726",
+  "time" : {
+    "start" : 1628118646372,
+    "stop" : 1628118646416,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/\")",
+      "time" : {
+        "start" : 1628118644375,
+        "stop" : 1628118644683,
+        "duration" : 308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"#data-table tbody tr\")",
+      "time" : {
+        "start" : 1628118646384,
+        "stop" : 1628118646390,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"[object Object]\")",
+      "time" : {
+        "start" : 1628118646392,
+        "stop" : 1628118646394,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"td.income, td.expense\")",
+      "time" : {
+        "start" : 1628118646394,
+        "stop" : 1628118646397,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "invoke (\"text\")",
+      "time" : {
+        "start" : 1628118646397,
+        "stop" : 1628118646400,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"[object Object]\")",
+      "time" : {
+        "start" : 1628118646401,
+        "stop" : 1628118646404,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"td.income, td.expense\")",
+      "time" : {
+        "start" : 1628118646404,
+        "stop" : 1628118646406,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "invoke (\"text\")",
+      "time" : {
+        "start" : 1628118646406,
+        "stop" : 1628118646409,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#totalDisplay\")",
+      "time" : {
+        "start" : 1628118646409,
+        "stop" : 1628118646411,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "invoke (\"text\")",
+      "time" : {
+        "start" : 1628118646411,
+        "stop" : 1628118646413,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **130** to equal **130** assert",
+      "time" : {
+        "start" : 1628118646415,
+        "stop" : 1628118646415,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Dev Finances"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "477a315643acf45c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628118638912,
+        "stop" : 1628118639000,
+        "duration" : 88
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27aa8a187e22fa62.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Dev Finances",
+    "children" : [ {
+      "name" : "Remove Entrances ",
+      "uid" : "d3059d404d8fff6a",
+      "parentUid" : "d6afb298132d3946e06ac7088a95ce4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628118636749,
+        "stop" : 1628118636956,
+        "duration" : 207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Remove entrace and exit",
+      "uid" : "7eccb17abb501c41",
+      "parentUid" : "d6afb298132d3946e06ac7088a95ce4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628118642651,
+        "stop" : 1628118642861,
+        "duration" : 210
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create entrance",
+      "uid" : "116bb8531572b8b3",
+      "parentUid" : "d6afb298132d3946e06ac7088a95ce4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628118644685,
+        "stop" : 1628118645547,
+        "duration" : 862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create exit",
+      "uid" : "ba5c0a028fce3dc",
+      "parentUid" : "d6afb298132d3946e06ac7088a95ce4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628118645554,
+        "stop" : 1628118646365,
+        "duration" : 811
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate Value ",
+      "uid" : "27aa8a187e22fa62",
+      "parentUid" : "d6afb298132d3946e06ac7088a95ce4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628118646372,
+        "stop" : 1628118646416,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d6afb298132d3946e06ac7088a95ce4b"
+  } ],
+  "name" : "suites"
+}

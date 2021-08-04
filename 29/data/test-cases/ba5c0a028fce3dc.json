@@ -1,0 +1,291 @@
+{
+  "uid" : "ba5c0a028fce3dc",
+  "name" : "Create exit",
+  "fullName" : "Create exit",
+  "historyId" : "e51404d1246066ef6968c6f6f4d1d4e0",
+  "time" : {
+    "start" : 1628118645554,
+    "stop" : 1628118646365,
+    "duration" : 811
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/\")",
+      "time" : {
+        "start" : 1628118644375,
+        "stop" : 1628118644683,
+        "duration" : 308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"a[class=\"button new\"]\")",
+      "time" : {
+        "start" : 1628118645567,
+        "stop" : 1628118645569,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1628118645569,
+        "stop" : 1628118645648,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#description\")",
+      "time" : {
+        "start" : 1628118645648,
+        "stop" : 1628118645651,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type (\"Saida \")",
+      "time" : {
+        "start" : 1628118645651,
+        "stop" : 1628118645850,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#amount\")",
+      "time" : {
+        "start" : 1628118645850,
+        "stop" : 1628118645853,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type (\"-20\")",
+      "time" : {
+        "start" : 1628118645853,
+        "stop" : 1628118646021,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#date\")",
+      "time" : {
+        "start" : 1628118646021,
+        "stop" : 1628118646024,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type (\"1990-08-13\")",
+      "time" : {
+        "start" : 1628118646024,
+        "stop" : 1628118646268,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Salvar\")",
+      "time" : {
+        "start" : 1628118646268,
+        "stop" : 1628118646272,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1628118646272,
+        "stop" : 1628118646351,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\".description\")",
+      "time" : {
+        "start" : 1628118646351,
+        "stop" : 1628118646358,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "last",
+      "time" : {
+        "start" : 1628118646358,
+        "stop" : 1628118646364,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **'<td.description>'** to have text **'Saida&nbsp;'** assert",
+      "time" : {
+        "start" : 1628118646364,
+        "stop" : 1628118646364,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Dev Finances"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3a99f9cd09075555",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628118641804,
+        "stop" : 1628118642640,
+        "duration" : 836
+      }
+    }, {
+      "uid" : "f236df8feb3833aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628118635916,
+        "stop" : 1628118636741,
+        "duration" : 825
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba5c0a028fce3dc.json",
+  "parameterValues" : [ ]
+}

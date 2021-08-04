@@ -1,0 +1,258 @@
+{
+  "uid" : "477a315643acf45c",
+  "name" : "Validate Value ",
+  "fullName" : "Validate Value ",
+  "historyId" : "57dd259d9384ab3ada7b4314594d3726",
+  "time" : {
+    "start" : 1628118638912,
+    "stop" : 1628118639000,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1628118638511,
+        "stop" : 1628118638878,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\".description\")",
+      "time" : {
+        "start" : 1628118638879,
+        "stop" : 1628118638910,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **[ <td.description>, 1 more... ]** to have a length of **2** assert",
+      "time" : {
+        "start" : 1628118638910,
+        "stop" : 1628118638910,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"#data-table tbody tr\")",
+      "time" : {
+        "start" : 1628118638924,
+        "stop" : 1628118638937,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"[object Object]\")",
+      "time" : {
+        "start" : 1628118638939,
+        "stop" : 1628118638946,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"td.income, td.expense\")",
+      "time" : {
+        "start" : 1628118638946,
+        "stop" : 1628118638957,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "invoke (\"text\")",
+      "time" : {
+        "start" : 1628118638957,
+        "stop" : 1628118638964,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"[object Object]\")",
+      "time" : {
+        "start" : 1628118638964,
+        "stop" : 1628118638972,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"td.income, td.expense\")",
+      "time" : {
+        "start" : 1628118638972,
+        "stop" : 1628118638978,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "invoke (\"text\")",
+      "time" : {
+        "start" : 1628118638978,
+        "stop" : 1628118638983,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#totalDisplay\")",
+      "time" : {
+        "start" : 1628118638983,
+        "stop" : 1628118638989,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "invoke (\"text\")",
+      "time" : {
+        "start" : 1628118638989,
+        "stop" : 1628118638994,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **-16** to equal **-16** assert",
+      "time" : {
+        "start" : 1628118638999,
+        "stop" : 1628118638999,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Dev Finances"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "477a315643acf45c.json",
+  "parameterValues" : [ ]
+}
