@@ -11,6 +11,18 @@
     "total" : 5
   }
 }, {
+  "buildOrder" : 29,
+  "reportUrl" : "https://LucileneMartins.github.io/ui_cypress_javascript/29/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 5,
+    "unknown" : 0,
+    "total" : 5
+  }
+}, {
   "data" : {
     "failed" : 0,
     "broken" : 0,
