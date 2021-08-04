@@ -50,6 +50,16 @@ jobs:
              git add allure-report -f
              git add allure-results -f
              git commit -m "[chore] autogenerate Allure report" -a
+             
+   - name: Test marketplace action
+     uses: simple-elf/allure-report-action@master
+     if: always()
+     id: allure-report
+     with:
+      allure_results: build/allure-results
+      gh_pages: gh-pages
+      allure_report: allure-report
+    allure_history: allure-history
 
     - name: Push changes
       uses: ad-m/github-push-action@master
