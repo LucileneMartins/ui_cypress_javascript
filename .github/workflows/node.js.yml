@@ -43,36 +43,36 @@ jobs:
     - name: Link Allure Report
       run: npm run allure:report
       
-      
-    - name: Test marketplace action
-      uses: simple-elf/allure-report-action@master
-      if: always()
-      id: allure-report
-      with:
-        allure_results: build/allure-results
-        gh_pages: gh-pages
-        allure_report: allure-report
-        allure_history: allure-history
+  jobs:
+  allure:
+   - name: Generate Allure Report
+     runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
 
-    - name: Deploy report to Github Pages
-      if: always()
-      uses: peaceiris/actions-gh-pages@v2
-      env:
-        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: allure-history
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
 
-      
-    - name: Commit report results
-      run: |
-             git config --local user.email "action@github.com"
-             git config --local user.name "GitHub Action"
-             git add allure-report -f
-             git add allure-results -f
-             git commit -m "[chore] autogenerate Allure report" -a 
-             
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: '${{ secrets.GITHUB_TOKEN }}'
-        force: true
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        #id: allure-report
+        with:
+          allure_results: allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
