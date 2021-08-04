@@ -41,7 +41,27 @@ jobs:
       uses: QuintilianoNery/action-allure-report-V2@0.2.0
       
     - name: Link Allure Report
-      run: npm run allure:report 
+      run: npm run allure:report
+      
+      
+    - name: Test marketplace action
+      uses: simple-elf/allure-report-action@master
+      if: always()
+      id: allure-report
+      with:
+        allure_results: build/allure-results
+        gh_pages: gh-pages
+        allure_report: allure-report
+        allure_history: allure-history
+
+    - name: Deploy report to Github Pages
+      if: always()
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: allure-history
+
       
     - name: Commit report results
       run: |
@@ -49,18 +69,8 @@ jobs:
              git config --local user.name "GitHub Action"
              git add allure-report -f
              git add allure-results -f
-             git commit -m "[chore] autogenerate Allure report" -a
+             git commit -m "[chore] autogenerate Allure report" -a 
              
-   - name: Test marketplace action
-     uses: simple-elf/allure-report-action@master
-     if: always()
-     id: allure-report
-     with:
-      allure_results: build/allure-results
-      gh_pages: gh-pages
-      allure_report: allure-report
-    allure_history: allure-history
-
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
