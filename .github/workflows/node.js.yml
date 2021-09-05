@@ -31,8 +31,8 @@ jobs:
             
     - name: Allure History
       run: |
-             if [-d allure-results] then rm -r allure-results else mkdir allure-results
-             if [-d allure-report] then rm -r allure-results else mkdir allure-report                        
+            mkdir allure-results
+            mkdir allure-report                        
              
     - name: Run Cypress Test
       run: npm run cypress:run
