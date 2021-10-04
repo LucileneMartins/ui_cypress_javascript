@@ -2,7 +2,7 @@
 
 Hello 👋🏻
 
-Project Test Web for learning ❤️
+Project Test Web for learn ❤️
 
 Tools and Libs:
 
