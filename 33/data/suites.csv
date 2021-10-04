@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 04 16:11:43 GMT 2021","Mon Oct 04 16:11:43 GMT 2021","182","","Dev Finances","","","","Remove Entrances ",""
+"passed","Mon Oct 04 16:11:51 GMT 2021","Mon Oct 04 16:11:52 GMT 2021","780","","Dev Finances","","","","Create exit",""
+"passed","Mon Oct 04 16:11:49 GMT 2021","Mon Oct 04 16:11:49 GMT 2021","183","","Dev Finances","","","","Remove entrace and exit",""
+"passed","Mon Oct 04 16:11:52 GMT 2021","Mon Oct 04 16:11:52 GMT 2021","32","","Dev Finances","","","","Validate Value ",""
+"passed","Mon Oct 04 16:11:50 GMT 2021","Mon Oct 04 16:11:51 GMT 2021","830","","Dev Finances","","","","Create entrance",""

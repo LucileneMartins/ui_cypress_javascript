@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://LucileneMartins.github.io/ui_cypress_javascript",
+  "buildOrder" : 33,
+  "buildName" : "GitHub Actions Run #1304375823",
+  "buildUrl" : "https://github.com/LucileneMartins/ui_cypress_javascript/actions/runs/1304375823",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://LucileneMartins.github.io/ui_cypress_javascript/33/"
+} ]
